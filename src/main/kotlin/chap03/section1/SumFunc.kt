@@ -5,6 +5,7 @@ package chap03.section1
 //정의할 때가 매개 변수고
 fun sum(a:Int, b:Int): Int = a + b
 
+fun sum2(a:Int, b:Int) = a + b //return 타입 안써줘도 됨.
 
 fun max(a:Int, b:Int) = if(a > b) a else b
 
